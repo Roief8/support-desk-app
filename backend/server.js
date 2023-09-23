@@ -14,7 +14,10 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 app.get("/", (req, res) => {
-  res.json({ message: "Hello" })
+  res.json({
+    message:
+      "Hello, Welcome to support desk api. we use api/users in order to register and login users to app.",
+  })
 })
 
 // Routes
