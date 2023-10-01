@@ -21,7 +21,7 @@ function Header() {
       </div>
       <ul className="d-flex my-auto">
         {user ? (
-          <button className="btn" onClick={onLogout}>
+          <button className="btn btn-dark px-4 mt-2" onClick={onLogout}>
             <FaSignOutAlt /> Logout
           </button>
         ) : (
