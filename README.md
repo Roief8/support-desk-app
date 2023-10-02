@@ -7,26 +7,26 @@ Screens:
 
 Sign In:
 
-<img width="959" alt="sign-in" src="https://github.com/Roief8/support-desk-app/assets/105589810/f30ba02e-802e-43eb-81e7-5a3394c986e9">
+<img width="959" alt="sign-in" src="https://github.com/Roief8/support-desk-app/assets/105589810/b4481388-ca7f-4b4f-b77a-794a195b30f2">
 
 Home:
 
-<img width="954" alt="homepage" src="https://github.com/Roief8/support-desk-app/assets/105589810/f4d0d46c-f455-4672-af9f-1edabd323373">
+<img width="954" alt="homepage" src="https://github.com/Roief8/support-desk-app/assets/105589810/78b42bd0-0ee6-401b-974b-710d33f0cf59">
 
 Create New Ticket:
 
-<img width="947" alt="new-ticket" src="https://github.com/Roief8/support-desk-app/assets/105589810/93597c88-9c5a-4a00-9a55-4d633e028536">
+<img width="947" alt="new-ticket" src="https://github.com/Roief8/support-desk-app/assets/105589810/ed061648-5d72-4514-9c4e-147f27fdeff2">
 
 My Tickets:
 
-<img width="956" alt="my-tickets" src="https://github.com/Roief8/support-desk-app/assets/105589810/271efc37-6ed5-44c1-8b14-69bd01db0d12">
+<img width="956" alt="my-tickets" src="https://github.com/Roief8/support-desk-app/assets/105589810/91210994-548c-4bc0-96c0-1a60b8311172">
 
 Add Ticket Note:
 
-<img width="955" alt="add-note" src="https://github.com/Roief8/support-desk-app/assets/105589810/9bd95dfb-3b3d-45b6-8d8c-b2eb7eb9cf5c">
+<img width="955" alt="add-note" src="https://github.com/Roief8/support-desk-app/assets/105589810/7e004760-ab1a-4ef8-b83c-0632b6882925">
 
 Ticket Page:
 
-<img width="958" alt="ticket-page" src="https://github.com/Roief8/support-desk-app/assets/105589810/a88cb081-9f11-4fed-b2ee-b66c926ff352">
+<img width="958" alt="ticket-page" src="https://github.com/Roief8/support-desk-app/assets/105589810/ec31da9f-8846-4695-8734-3bb8265c75a2">
 
 
