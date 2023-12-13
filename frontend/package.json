@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "proxy": "http://ec2-3-69-231-47.eu-central-1.compute.amazonaws.com:5000",
+  "proxy": "http://ec2-3-69-231-47.eu-central-1.compute.amazonaws.com:5000/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
