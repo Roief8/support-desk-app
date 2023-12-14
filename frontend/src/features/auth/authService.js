@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const BASE_URL = "http://ec2-3-69-231-47.eu-central-1.compute.amazonaws.com"
+const BASE_URL = "http://ec2-3-69-231-47.eu-central-1.compute.amazonaws.com/"
 const API_URL = "/api/users/"
 
 // Register user
@@ -15,7 +15,7 @@ const register = async (userData) => {
 
 // Login user
 const login = async (userData) => {
-  const response = await axios.post(BASE_URL + API_URL + "login", userData)
+  const response = await axios.post(BASE_URL, userData)
   if (response.data) {
     localStorage.setItem("user", JSON.stringify(response.data))
   }
