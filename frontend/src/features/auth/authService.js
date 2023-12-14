@@ -17,6 +17,8 @@ const register = async (userData) => {
 const login = async (userData) => {
   const response = await axios.post(BASE_URL, userData, {
     headers: "Access-Control-Allow-Origin: *",
+    "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE",
+    "Access-Control-Allow-Headers": "Content-Type",
   })
   if (response.data) {
     localStorage.setItem("user", JSON.stringify(response.data))
