@@ -1,4 +1,5 @@
 const express = require("express")
+var https = require("https")
 const colors = require("colors")
 const dotenv = require("dotenv").config()
 const { errorHandler } = require("./middleware/errorMiddleware")
@@ -12,6 +13,8 @@ const app = express()
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+let options = { key: true, cert: true }
+https.createServer(options, app).listen(443)
 
 app.get("/", (req, res) => {
   res.json({
