@@ -18,8 +18,10 @@ var options = {
   key: fs.readFileSync("key.pem", "utf8"),
   cert: fs.readFileSync("server.crt", "utf8"),
 }
-// let options = { key: "../key.pem", cert: "../server.crt" }
-https.createServer(options, app).listen(443)
+
+https.createServer(options, app).listen(443, () => {
+  "server started https."
+})
 
 app.get("/", (req, res) => {
   res.json({
