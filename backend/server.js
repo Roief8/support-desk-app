@@ -1,5 +1,6 @@
 const express = require("express")
-var https = require("https")
+const https = require("https")
+const fs = require("fs")
 const colors = require("colors")
 const dotenv = require("dotenv").config()
 const { errorHandler } = require("./middleware/errorMiddleware")
@@ -13,7 +14,11 @@ const app = express()
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
-let options = { key: "../key.pem", cert: "../server.crt" }
+var options = {
+  key: fs.readFileSync("key.pem", "utf8"),
+  cert: fs.readFileSync("server.crt", "utf8"),
+}
+// let options = { key: "../key.pem", cert: "../server.crt" }
 https.createServer(options, app).listen(443)
 
 app.get("/", (req, res) => {
