@@ -13,7 +13,7 @@ const app = express()
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
-let options = { key: "./key.pem", cert: "./cert.crt" }
+let options = { key: "../key.pem", cert: "../cert.crt" }
 https.createServer(options, app).listen(443)
 
 app.get("/", (req, res) => {
