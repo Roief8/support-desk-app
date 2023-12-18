@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const BASE_URL = "http://ec2-3-69-231-47.eu-central-1.compute.amazonaws.com/"
+const BASE_URL = "ec2-18-159-112-130.eu-central-1.compute.amazonaws.com:5000"
 const API_URL = "/api/users/"
 
 // Register user
